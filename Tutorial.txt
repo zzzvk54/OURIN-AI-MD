@@ -17,12 +17,12 @@ Contoh 👇🏻
   // ambil apikey di: https://aistudio.google.com/apikey
   geminiApiKey: "AIzaSyAJaRmXcsK4GPetxwXkq2LBi5Vy9AOgCF4",
 
-vercel: {
+vercel:
     // ambil token vercel: https://vercel.com/account/tokens
     token: "vcp_75dqry1xuZawYRyXs07ayrcBmphMKrAcZGl5QXz8AysGIZLqnB1BMl5U", // Vercel Token untuk fitur deploy ( Kalau .deploy mau work, ini wajib di isi )
 
   //  APIkey
-  APIkey: {
+  APIkey:
     // kalian bisa daftar di https://api.lolhuman.xyz, lalu ambil apikeynya
     lolhuman: "APIKey-Milik-Bot-OurinMD(Zann,HyuuSATANN,Keisya,Danzz)",
     // kalian bisa daftar di https://api.neoxr.eu, lalu ambil apikeynya
