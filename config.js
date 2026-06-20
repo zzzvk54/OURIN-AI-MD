@@ -158,7 +158,7 @@ const config = {
   goodbye: { defaultEnabled: false },
 
   ui: {
-    menuVariant: 4,
+    menuVariant: 3,
   },
 
   messages: {
