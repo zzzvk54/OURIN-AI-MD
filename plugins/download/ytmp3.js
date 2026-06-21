@@ -2,7 +2,7 @@ import axios from "axios";
 import ytdl, { fallbackToMp3Buffer } from "../../src/scraper/ytdl.js";
 const pluginConfig = {
   name: "ytmp3",
-  alias: ["youtubemp3", "ytaudio"],
+  alias: ["youtubemp3", "ytaudio", "ytmp3", "ytmp"],
   category: "download",
   description: "Download audio YouTube",
   usage: ".ytmp3 <url>",
