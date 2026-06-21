@@ -5,7 +5,7 @@ import config from "../../config.js";
 const pluginConfig = {
   name: "daily",
   alias: ["harian", "claim"],
-  category: "rpg",
+  category: "user",
   description: "Klaim hadiah harian",
   usage: ".daily",
   example: ".daily",
