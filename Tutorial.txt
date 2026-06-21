@@ -2,7 +2,7 @@ Welcome Bro... 👋🏻👇🏻
 
 
 - Takutkan nomor WhatsApp anda... Jangan lupa setting nomor authorization login di file config, Bot tidak akan berjalan jika tidak ada nomor yang terkait.
-• Cari teks "session" untuk mengedit.
+• Cari teks "session" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
 session:
 pairingNumber: "6283855471679", // Nomor WA yang akan di-pair, ini penting
@@ -11,7 +11,7 @@ usePairingCode: true, // true = Pairing Code, false = QR Code
 - Bot tidak bisa digunakan jika tidak ada "panel/run khusus desktop". jika tidak punya perangkat desktop bisa beli panel untuk menjalankan bot, saran beli di tautan ini jika kalian tidak punya orang terdekat: https://tinyurl.com/ERINVIP475
 
 - Free Apikey, jika anda punya apikey sendiri bisa diganti:
-• Cari teks "apikey" untuk mengedit.
+• Cari teks "apikey" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
   // NOTE: kalau mau command "autoai" nya berfungsi, ini gak wajib di isi yak
   // ambil apikey di: https://aistudio.google.com/apikey
@@ -38,21 +38,21 @@ vercel:
     firefly: "OurinNextGen",
 
 - Setting nama owner:
-• Cari teks "owner" untuk mengedit.
+• Cari teks "owner" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
 owner: 
     name: "YOUR NAME", // Nama owner
     number: ["628..."], // Format: 628xxx (tanpa + atau 0)
 
 - Setting nama pembuat stiker dan author:
-• Cari teks "sticker" untuk mengedit.
+• Cari teks "sticker" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
 sticker: 
     packname: "𝗢𝗨𝗥𝗜𝗡 𝗔𝗜", // Nama pack sticker
     author: "YOUR NAME", // Author sticker
 
 - Setting saluran channel WhatsApp, nama channel WhatsApp dan id saluran, id saluran bisa didapatkan dari bot WhatsApp lain jika belum siap jadibot:
-• Cari teks "saluran" untuk mengedit.
+• Cari teks "saluran" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
 saluran: {
     id: "Nomor id saluran@newsletter", // ID saluran (contoh: 120363xxx@newsletter)
@@ -60,7 +60,7 @@ saluran: {
     link: "LINK YOUR CHANNEL", // Link saluran
 
 - Setting energy limit owner dan semua user:
-• Cari teks "energi" untuk mengedit.
+• Cari teks "energi" di bagian file config.js untuk mengedit.
 Contoh 👇🏻 
 energi: {
     enabled: true, // Jika true, maka sistem energi/limit akan bekerja
@@ -70,9 +70,12 @@ energi: {
 
 - Jika anda sudah pro mengedit coding, langsung ke inti saja 🗿🔥
 
+- Catatan warning ⚠️ 
+• Jangan ubah nama bot sebagian nama AI, Penting... Nomor anda tidak akan dihapus dari daftar sistem mencurigakan seperti virus.
+
 - Time Update jika memungkinkan...
 
 
 
 
-CR -By Ardy
+CR -By Ardy,Raka,Rexx,Nvarln,Vrizz
