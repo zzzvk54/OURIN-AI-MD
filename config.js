@@ -143,6 +143,7 @@ const config = {
     logMessage: true,
     dailyLimitReset: true,
     smartTriggers: false,
+    autoReactSW: false,
   },
 
   registration: {
