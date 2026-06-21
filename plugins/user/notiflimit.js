@@ -19,7 +19,7 @@ const pluginConfig = {
 async function handler(m, { sock }) {
     const db = getDatabase();
 
-    const currentStatus = db.setting("notiflimit") ?? false;
+    const currentStatus = db.setting("notiflimit") ?? true;
     db.setting("notiflimit", !currentStatus);
 
     const newStatus = db.setting("notiflimit") ? "AKTIF ✅" : "MATI ❌";
