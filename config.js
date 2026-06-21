@@ -107,7 +107,7 @@ const config = {
   saluran: {
     id: "-@newsletter", // ID saluran (contoh: 120363xxx@newsletter)                          // ID saluran (contoh: 120363xxx@newsletter)
     name: "MULTI GREEN AI", // Nama saluran
-    link: "https://whatsapp.com/channel/0029VbCQ860FSAsvXo4r9N3I", // Link saluran
+    link: "https://whatsapp.com/channel/-", // Link saluran
   },
 
   groupProtection: {
@@ -287,7 +287,7 @@ const config = {
   //  APIkey
   APIkey: {
     // kalian bisa daftar di https://api.lolhuman.xyz, lalu ambil apikeynya
-    lolhuman: "APIKey-Milik-Bot-OurinMD(Zann,HyuuSATANN,Keisya,Danzz)",
+    lolhuman: "APIKey-Milik-Bot-OurinMD(Zenx,Rizx,Ardy,Rex,Danz,Vrizz,Nvalrn)",
     // kalian bisa daftar di https://api.neoxr.eu, lalu ambil apikeynya
     neoxr: "fKzSe6",
     fgsi: "fgsiapi-20c1605c-6d",
