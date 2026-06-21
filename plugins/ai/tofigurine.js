@@ -2,7 +2,7 @@ import te from '../../src/lib/ourin-error.js'
 import { live3d } from '../../src/scraper/seaart.js'
 const pluginConfig = {
     name: 'tofigure3',
-    alias: ['figurine3', 'tofigure3', 'f', 'realis', 'realistis', 'k', 'a', 'r', 'z'],
+    alias: ['lifestyle', 'lifehd', 'f', 'realis', 'realistis', 'k', 'a', 'r', 'z'],
     category: 'ai',
     description: 'Ubah foto menjadi keren/realistis',
     usage: '.realistic (reply/kirim gambar)',
@@ -25,7 +25,7 @@ async function handler(m, { sock }) {
         return m.reply(
             `🎭 *ᴄʀᴇᴀᴛᴇᴅ ʀᴇᴀʟɪꜰᴇ *\n\n` +
             `> Kirim/reply gambar untuk diubah ke figurine/action figure\n\n` +
-            `\`${m.prefix}tofigure3\``
+            `\`${m.prefix}realistic\``
         )
     }
     
