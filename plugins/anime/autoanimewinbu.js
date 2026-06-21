@@ -8,12 +8,12 @@ const pluginConfig = {
     description: 'Auto upload ongoing anime & donghua dari winbu.net (720p Pixeldrain)',
     usage: '.autoanimewinbu <start|stop|status|cek|list|reset|addgrup|delgrup>',
     example: '.autoanime start',
-    isOwner: true,
+    isOwner: false,
     isPremium: false,
-    isGroup: false,
+    isGroup: true,
     isPrivate: false,
     cooldown: 10,
-    energi: 45,
+    energi: 25,
     isEnabled: true
 }
 
