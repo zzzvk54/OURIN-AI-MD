@@ -3,7 +3,7 @@ import ytdl from "../../src/scraper/ytdl.js";
 import config from "../../config.js";
 const pluginConfig = {
   name: "ytmp4",
-  alias: ["youtubemp4", "ytvideo"],
+  alias: ["youtubemp4", "ytvideo", "ytvt", "vtyt", "ytmp4"],
   category: "download",
   description: "Download video YouTube",
   usage: ".ytmp4 <url>",
@@ -61,8 +61,10 @@ async function handler(m, { sock }) {
   try {
     const downloadUrl = await getVideoDownloadUrl(url);
 
-    await sock.sendMedia(m.chat, downloadUrl, null, m, {
+    await sock.sendMedia(m.chat, downloadUrl, `❄️ DOWNLOAD IS DONE ❄️\n---\n❖ Creator: Franklin\n❖ File Saved: 19/07/2024\n❖ Caption: Berhasil Mengunduh Video YOUTUBE!\n> LIMITED BY LEAF-AI`, m, {
       type: "video",
+      mimetype: "video/mp4",
+      fileName: `YT-${Date.now()}.mp4`,
     });
     m.react("✅");
   } catch (err) {
