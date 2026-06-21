@@ -73,6 +73,16 @@ energi: {
 - Catatan warning ⚠️ 
 • Jangan ubah nama bot sebagian nama AI, Penting... Nomor anda tidak akan dihapus dari daftar sistem mencurigakan seperti virus.
 
+- Penggunaan simple untuk melakukan aktifitas 
+• Contoh 👇🏻 
+- Jika ingin mengubah tampilan menu dari awal bot ketik .setmenu
+- Jika ingin mengubah tampilan allmenu dari awal ketik .setallmenu 
+- Jangan lupa private bot agar tidak menggangu penggunaan lain, daftar mode untuk private bot: 
+- .self untuk mengecualikan semua orang untuk menggunakan command 
+- .public memungkinkan semua orang bisa mengakses kembali bot yang sudah di private 
+- .publicgc fungsinya untuk membuka mode private... khusus grup yang ingin di public saja, fitur ini akan bekerja jika command .self diaktifkan 
+- .onlygc mengecualikan akses command di private chat dan di alihkan ke grup untuk mengakses command 
+
 - Time Update jika memungkinkan...
 
 
