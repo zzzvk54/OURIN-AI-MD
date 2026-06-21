@@ -10,7 +10,7 @@ const pluginConfig = {
     alias: ['speed', 'p', 'latency', 'sys', 'status', 'ping'],
     category: 'main',
     description: 'Cek performa dan status sistem bot secara real-time',
-    usage: '.ping2',
+    usage: '.ping',
     example: '.ping',
     isOwner: false,
     isPremium: false,
