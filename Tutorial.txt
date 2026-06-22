@@ -85,6 +85,10 @@ energi: {
 - .public memungkinkan semua orang bisa mengakses kembali bot yang sudah di private 
 - .publicgc fungsinya untuk membuka mode private... khusus grup yang ingin di public saja, fitur ini akan bekerja jika command .self diaktifkan 
 - .onlygc mengecualikan akses command di private chat dan di alihkan ke grup untuk mengakses command 
+- .reactsw fungsinya ini untuk ngelike story orang/kawan, akan otomatis like ketika ada pembaruan story baru saja diupload. ketik .reactsw on untuk memulai otomatis like story dan ketik .reactsw off untuk mematikannya 
+- .onlygc fungsinya untuk mengecualikan orang yang menggunakan command di private chat, ketik .onlygc on untuk mengaktifkan dan .onlygc off untuk mematikannya. fitur ini hampir sama dengan fitur .self
+- .onlypc fungsinya untuk mengakses command untuk di private chat, orang yang menggunakan command di grup yang anda singgahi tidak dapat diakses, kecuali anda menonaktifkan nya. ketik .onlypc on untuk mengaktifkan dan ketik .onlypc off untuk mematikannya 
+
 
 - Time Update jika memungkinkan...
 
