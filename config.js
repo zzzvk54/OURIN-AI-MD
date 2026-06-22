@@ -138,12 +138,12 @@ const config = {
   features: {
     antiCall: false, // Jika true, bot akan menolak panggilan masuk
     blockIfCall: false, // Jika true, bot akan memblokir nomor yang menelpon bot
-    autoTyping: true,
+    autoTyping: false,
     autoRead: true,
     logMessage: true,
     dailyLimitReset: true,
     smartTriggers: false,
-    autoReactSW: false,
+    autoReactSW: false, // nonaktifkan manual jika tidak berfungsi, ketik ".reactsw off" untuk mematikannya
   },
 
   registration: {
@@ -159,7 +159,8 @@ const config = {
   goodbye: { defaultEnabled: false },
 
   ui: {
-    menuVariant: 4,
+    menuVariant: 3, // ubah ui menu secara manual jika tidak berfungsi, ketik ".setmenu" untuk mengubah tampilan menu 
+    allmenuVariant: 2, // ubah ui allmenu secara manual jika tidak berfungsi, ketik ".setallmenu" untuk mengubah tampilan allmenu 
   },
 
   messages: {
